@@ -1,7 +1,7 @@
 /**
  * @name DevMode
  * @description Description Here :O
- * @version 80085
+ * @version 1.0.0
  * @author Muminwilmer#6034
  * @updateUrl https://raw.githubusercontent.com/Muminwilmer/Devmode/main/Devmode.plugin.js
  */
@@ -12,7 +12,7 @@ const config = {
         name: "Dev Mode",
         id: "Devmode",
         description: "Devmode thingy",
-        version: "1.0.0", 
+        version: "80085", 
         author: "Muminwilmer",
         updateUrl: "https://raw.githubusercontent.com/Muminwilmer/Devmode/main/Devmode.plugin.js", //the link 
     },

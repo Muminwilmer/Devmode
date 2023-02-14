@@ -2,8 +2,8 @@
  * @name Devmode
  * @author Muminwilmer
  * @version 1
- * https://github.com/Muminwilmer/Devmode.plugin.js
- * @updateUrl
+ * @source https://github.com/Muminwilmer/Devmode.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/Muminwilmer/Devmode/main/Devmode.plugin.js
  */
 
 /*@cc_on

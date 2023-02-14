@@ -52,11 +52,11 @@ usermod.exports.default.__proto__.getCurrentUser = oldGetUser
 
 
 return function() { return {
-    getName: () => "DiscordFreeEmojis",
-    getShortName: () => "FreeEmojis",
-    getDescription: () => "Link emojis if you don't have nitro! Type them out or use the emoji picker! [64px]",
-    getVersion: () => "1.6",
-    getAuthor: () => "An0",
+    getName: () => "DevMode",
+    getShortName: () => "DevMode",
+    getDescription: () => "Description",
+    getVersion: () => "1",
+    getAuthor: () => "Muminwilmer",
 
     start: Start,
     stop: Stop

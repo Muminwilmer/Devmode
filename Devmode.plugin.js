@@ -39,14 +39,14 @@ const config = {
 		
 	  //Occurs when plugin is turned on in settings
 	  start() {
-	  	BdApi.alert("Turned On", `Hello, Use Sealflix Please`);
+	  	BdApi.alert("Turned On", `Hello`);
 			console.log("Plugin started successfully...");
 	  }
 
 		
 		//Occurs when plugin is turned off in settings
 	  stop() {
-	  	BdApi.alert("Turned Off", `Goodbye, Use Sealflix Please`);
+	  	BdApi.alert("Turned Off", `Goodbye`);
 			let wpRequire;
 			window.webpackChunkdiscord_app.push([[ Math.random() ], {}, (req) => { wpRequire = req; }]);
 			mod = Object.values(wpRequire.c).find(x => typeof x?.exports?.Z?.isDeveloper !== "undefined");

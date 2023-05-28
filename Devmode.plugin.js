@@ -19,7 +19,7 @@ const config = {
     changelog: [
         {
             title: "Devmode",
-            items: ["Changes made to plugin..."]
+            items: ["Removed Start message and updated the Shutdown message :D"]
         }
     ]
 }
@@ -39,14 +39,13 @@ const config = {
 		
 	  //Occurs when plugin is turned on in settings
 	  start() {
-	  	BdApi.alert("Turned On", `Hello`);
-			console.log("Plugin started successfully...");
+		console.log("Plugin started successfully...");
 	  }
 
 		
 		//Occurs when plugin is turned off in settings
 	  stop() {
-	  	BdApi.alert("Turned Off", `Goodbye`);
+	  	BdApi.alert("Dev Mode Turned Off", `**You need to restart discord to fully disable the plugin!**`);
 			let wpRequire;
 			window.webpackChunkdiscord_app.push([[ Math.random() ], {}, (req) => { wpRequire = req; }]);
 			mod = Object.values(wpRequire.c).find(x => typeof x?.exports?.Z?.isDeveloper !== "undefined");

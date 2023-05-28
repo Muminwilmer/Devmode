@@ -16,11 +16,13 @@ const config = {
         author: "Muminwilmer",
         updateUrl: "https://raw.githubusercontent.com/Muminwilmer/Devmode/main/Devmode.plugin.js", //the link 
     },
-    changelog: [
-        {
-            title: "Devmode",
-            items: ["Removed Start message and updated the Shutdown message :D"]
-        }
+     changelog: [
+    	{
+      title: "v80085.1",
+      items: [
+        "Removed Start message and updated the Shutdown message :D",
+     	  ]
+    	}
     ]
 }
 

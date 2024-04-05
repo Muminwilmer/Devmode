@@ -1,3 +1,2 @@
 # Devmode
-dev
-it enables dev mode
+Enables discords Dev tab. (Better Discord)
